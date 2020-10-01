@@ -6,7 +6,8 @@ h1 {font-size: 2em;}
 
 h2 {font-size: 1.5em;}
 
-tr:nth-last-child(even) {
+tr:nth-child(even) 
+{
     background-color: midnightblue;
 }
 
