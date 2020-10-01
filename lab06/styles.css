@@ -2,12 +2,12 @@ body {font-family: 'Times New Roman', Times, serif;}
 
 h1, h2 {color: grey;}
 
-.special {color: lightblue;}
-
-.evenrow {background-color: mediumslateblue;}
-
 h1 {font-size: 2em;}
 
 h2 {font-size: 1.5em;}
+
+tr:nth-last-child(even) {
+    background-color: midnightblue;
+}
 
 
