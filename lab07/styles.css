@@ -9,6 +9,6 @@ a:active {color: #CF1B1B;}
 
 h1, h2, h3 {color: #0F4C75;}
 
-nav a {background-color: #3282B8;}
+nav {background-color: #3282B8;}
 nav a :hover {color: #BBE1FA;}
 nav a {color: #0F4C75;}
