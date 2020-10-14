@@ -1,0 +1,17 @@
+body {background-color: #FFFFFF; }
+
+body {color: #000000;}
+
+a:link {color: #3282B8;}
+a:visited {color: #0F4C75;}
+a:hover {color: #FF5F40;}
+a:active {color: #CF1B1B;}
+
+h1, h2, h3 {color: #0F4C75;}
+
+nav {background-color: #BBE1FA;}
+nav a :hover {color: #3282B8;}
+nav a {color: #FF5F40;}
+
+nav {padding: 10px;}
+nav{margin-bottom: 30px;}
