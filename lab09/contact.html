@@ -19,10 +19,10 @@
         .map { order: 2; padding: 20px; margin: 10px;}
         .form {order: 1; padding: 20px; margin: 10px;}
 
-        @media only screen and (max-width: 768px;)
+        @media only screen and (max-width: 768px)
         {
             nav {width: 100%; display: block;}
-            
+            .pipe {display: none;}
         }
 
 
@@ -34,9 +34,9 @@
 
     <body>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="contact.html">Contact</a> |
-            <a href="skills.html">Skills</a> |
+            <a href="index.html">Home</a> <span class=pipe>| </span>
+            <a href="contact.html">Contact</a> <span class=pipe>| </span>
+            <a href="skills.html">Skills</a> <span class=pipe>| </span>
          </nav>
         <h1>
         Conact Information 
