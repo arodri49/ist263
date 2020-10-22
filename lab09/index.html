@@ -13,15 +13,21 @@
             .personalinfo {float:none}
 
             .mylogo {max-width: 100%;}
+
+            @media only screen and (max-width: 768px)
+        {
+            nav a {width: 100%; display: block;}
+            .pipe {display: none;}
+        }
         </style>
 
     </head>
 
     <body>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="contact.html">Contact</a> |
-            <a href="skills.html">Skills</a> |
+            <a href="index.html">Home</a> <span class=pipe>| </span>
+            <a href="contact.html">Contact</a> <span class=pipe>| </span>
+            <a href="skills.html">Skills</a> <span class=pipe>| </span>
         </nav>
 
 
