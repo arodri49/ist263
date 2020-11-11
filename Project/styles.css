@@ -10,3 +10,8 @@ a:active {color: #CF1B1B;}
 nav {background-color: #f10a4f;}
 nav a :hover {color: #BD2E51;}
 nav a {color: #DA5780;}
+
+nav {padding: 10px;}
+nav{margin-bottom: 30px;}
+
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
