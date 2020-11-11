@@ -7,10 +7,15 @@ a:visited {color: #eb0f46;}
 a:hover {color: #BD2E51;}
 a:active {color: #CF1B1B;}
 
-nav a :hover {color: #BD2E51;}
-nav a {color: #DA5780;}
+
 
 nav {padding: 10px;}
 nav{margin-bottom: 30px;}
 
 body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+@media only screen and (max-width: 768px)
+{
+    nav a {width: 100%; display: block;}
+    .pipe {display: none;}
+}
