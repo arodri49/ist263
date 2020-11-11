@@ -6,3 +6,7 @@ a:link {color: #DA5780;}
 a:visited {color: #eb0f46;}
 a:hover {color: #BD2E51;}
 a:active {color: #CF1B1B;}
+
+nav {background-color: #f10a4f;}
+nav a :hover {color: #BD2E51;}
+nav a {color: #DA5780;}
