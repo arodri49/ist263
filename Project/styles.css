@@ -1,6 +1,10 @@
 body {background-color: #ffe6ee;}
 
-h1,h2,h3,h4,h5,h6 {color: #c3015c;}
+h1,h2,h3,h4,h5,h6 {
+    color: #c3015c;
+    font-family: 'Merriweather', serif;
+
+}
 
 a:link {color: #c9005e;}
 a:visited {color: #b90057;}
