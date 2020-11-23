@@ -23,3 +23,7 @@ body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
     nav a {width: 100%; display: block;}
     .pipe {display: none;}
 }
+
+#skiptocontent {
+    display: none;
+}
