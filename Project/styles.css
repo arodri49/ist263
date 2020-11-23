@@ -25,11 +25,11 @@ body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
 }
 
 
-    #skip-to-content {
+    #skiptocontent {
         position: absolute; 
         left: -999px;  
         background-color: white;
         border: 1px solid gray;
         }
-    #skip-to-content:focus {position: absolute; left: 10px;}
+    #skiptocontent:focus {position: absolute; left: 10px;}
     
