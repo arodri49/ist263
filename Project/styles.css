@@ -24,6 +24,12 @@ body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
     .pipe {display: none;}
 }
 
-#skiptocontent {
-    display: none;
-}
+
+    #skip-to-content {
+        position: absolute; 
+        left: -999px;  
+        background-color: white;
+        border: 1px solid gray;
+        }
+    #skip-to-content:focus {position: absolute; left: 10px;}
+    
